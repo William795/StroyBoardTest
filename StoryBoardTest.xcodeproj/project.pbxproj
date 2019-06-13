@@ -14,6 +14,8 @@
 		92B6F9EC22B2F78800513564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B6F9EA22B2F78800513564 /* LaunchScreen.storyboard */; };
 		92B6F9F722B2F78800513564 /* StoryBoardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6F9F622B2F78800513564 /* StoryBoardTestTests.swift */; };
 		92B6FA0222B2F78800513564 /* StoryBoardTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6FA0122B2F78800513564 /* StoryBoardTestUITests.swift */; };
+		92B6FA1022B2F93100513564 /* NumberTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B6FA0F22B2F93100513564 /* NumberTwo.storyboard */; };
+		92B6FA1222B2F97100513564 /* NumbetTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6FA1122B2F97100513564 /* NumbetTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		92B6F9FD22B2F78800513564 /* StoryBoardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryBoardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B6FA0122B2F78800513564 /* StoryBoardTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardTestUITests.swift; sourceTree = "<group>"; };
 		92B6FA0322B2F78800513564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B6FA0F22B2F93100513564 /* NumberTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NumberTwo.storyboard; sourceTree = "<group>"; };
+		92B6FA1122B2F97100513564 /* NumbetTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbetTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				92B6F9E822B2F78800513564 /* Assets.xcassets */,
 				92B6F9EA22B2F78800513564 /* LaunchScreen.storyboard */,
 				92B6F9ED22B2F78800513564 /* Info.plist */,
+				92B6FA0F22B2F93100513564 /* NumberTwo.storyboard */,
+				92B6FA1122B2F97100513564 /* NumbetTwoViewController.swift */,
 			);
 			path = StoryBoardTest;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			files = (
 				92B6F9EC22B2F78800513564 /* LaunchScreen.storyboard in Resources */,
 				92B6F9E922B2F78800513564 /* Assets.xcassets in Resources */,
+				92B6FA1022B2F93100513564 /* NumberTwo.storyboard in Resources */,
 				92B6F9E722B2F78400513564 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B6FA1222B2F97100513564 /* NumbetTwoViewController.swift in Sources */,
 				92B6F9E422B2F78400513564 /* ViewController.swift in Sources */,
 				92B6F9E222B2F78400513564 /* AppDelegate.swift in Sources */,
 			);
